@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TSN_DEMO_12_Browser</string>
+    <string name="search_hint">Поиск</string>
+    <string name="home_page">https://google.com</string>
+    <string name="kuda_otpravit">Поделиться</string>
+    <string name="iz">из</string>
+    <string name="ne_naideno">Не найдено !</string>
+</resources>
