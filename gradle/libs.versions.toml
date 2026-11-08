@@ -1,0 +1,17 @@
+[versions]
+appcompat = "1.8.0"
+constraintlayout = "2.2.2"
+googleServices = "4.5.0"
+gradle = "9.5.1"
+gradleToolchainsFoojayResolverConvention = "1.0.0"
+material = "1.14.0"
+
+[libraries]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+[plugins]
+gradle-toolchains-foojay-resolver-convention = { id = "org.gradle.toolchains.foojay-resolver-convention", version.ref = "gradleToolchainsFoojayResolverConvention" }
